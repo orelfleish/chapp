@@ -61,6 +61,7 @@ const MessageInput = () => {
       )}
       <form onSubmit={handleSendMessage} className="flex items-center gap-2">
         <div className="flex-1 flex gap-2">
+          {/* text bar */}
           <input
             type="text"
             className="w-full input input-bordered rounded-lg input-sm sm:input-md"
@@ -68,6 +69,7 @@ const MessageInput = () => {
             value={text}
             onChange={(e) => setText(e.target.value)}
           />
+          {/* image button */}
           <input
             type="file"
             accept="image/*"
@@ -85,6 +87,7 @@ const MessageInput = () => {
             <Image size={20} />
           </button>
         </div>
+        {/* send button */}
         <button
           type="submit"
           className="btn btn-sm btn-circle"
