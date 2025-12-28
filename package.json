@@ -1,0 +1,21 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix CHAT-SERVER && npm install --prefix CHAT-UI && npm run build --prefix CHAT-UI",
+    "start": "npm run start --prefix CHAT-SERVER"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orelfleish/chapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orelfleish/chapp/issues"
+  },
+  "homepage": "https://github.com/orelfleish/chapp#readme",
+  "description": ""
+}
